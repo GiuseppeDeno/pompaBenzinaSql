@@ -1,0 +1,108 @@
+/* Stile generale del layout */
+.root {
+    -fx-background-color: #BBDEFB; /*  blu pallido */
+    -fx-font-family: "Arial"; 
+}
+
+/* Stile per le etichette (Label) */
+.label {
+    -fx-font-size: 20px; 
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold; 
+    -fx-background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+    -fx-padding: 10px; /* Padding interno */
+    -fx-border-color: #ffffff; 
+    -fx-border-width: 1px; /* Spessore del bordo */
+    -fx-border-radius: 5px; /* Raggio del bordo */
+}
+
+/* Stile per i pulsanti (Button) */
+.button {
+    -fx-font-size: 16px; 
+    -fx-background-color: #4CAF50; /* Colore verde */
+    -fx-text-fill: white; 
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px; 
+}
+
+.button:hover {
+    -fx-background-color: #45a049; 
+}
+
+/* Stile per i campi di testo (TextField) */
+.text-field {
+    -fx-font-size: 16px; 
+    -fx-padding: 10px; /* Padding interno */
+    -fx-background-color: #ffffff; 
+    -fx-border-color: #ccc; /* Colore del bordo grigio chiaro */
+    -fx-border-width: 1px; 
+    -fx-border-radius: 5px; /* Raggio per angoli arrotondati */
+}
+
+
+.message {
+    -fx-font-size: 16px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #388E3C;
+}
+
+/* Stile per la scena principale */
+.grid-pane {
+    -fx-padding: 20px; 
+    -fx-alignment: center; 
+}
+
+
+#btnEroga10 {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white;
+}
+
+#btnEroga10:hover {
+    -fx-background-color: #45a049;
+}
+
+
+#btnEroga20 {
+    -fx-background-color: #388E3C;
+    -fx-text-fill: white;
+}
+
+#btnEroga20:hover {
+    -fx-background-color: #45a049; 
+}
+
+
+#btnEroga50 {
+    -fx-background-color: #1B5E20;
+    -fx-text-fill: white;
+}
+
+#btnEroga50:hover {
+    -fx-background-color: #388E3C; 
+}
+
+/* Pulsante Ricarica */
+#btnRicarica {
+    -fx-background-color: #2196F3; 
+    -fx-text-fill: white;
+}
+
+#btnRicarica:hover {
+    -fx-background-color: #1976D2; 
+}
+
+/* Messaggio di feedback */
+#labelMessaggio {
+    -fx-text-fill: #388E3C;
+}
+
+
+#btnInfo {
+    -fx-background-color: #FFEB3B;
+    -fx-text-fill: black;
+}
+
+#btnInfo:hover {
+    -fx-background-color: #FDD835; 
+}
